@@ -5,12 +5,9 @@ const { Sequelize, DataTypes, Model } = pkg;
 export const sequelize = new Sequelize({
 	dialect: 'mysql',
 	port: 3306,
-	database: 'u164256670_mychurch',
-	password: 'S9#uZ1ap',
-	username: 'u164256670_mychurch'
-	// database: 'mychurch',
-	// password: 'root',
-	// username: 'root'
+	database: 'mychurch',
+	password: '12345678',
+	username: 'root'
 });
 
 export class Church extends Model {}
