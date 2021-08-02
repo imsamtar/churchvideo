@@ -1,3 +1,3 @@
 process.env.PORT = 3001;
 
-require('./build/index');
+import('./build/index.js');
