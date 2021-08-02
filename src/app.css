@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.btn {
+	@apply px-3 py-2 border hover:bg-blue-600 hover:text-white hover:border-gray-50;
+}
+
+.input {
+	@apply border-b p-3 outline-none focus:border-blue-800 mx-auto w-full mb-10;
+}
+/* .ytp-chrome-bottom,
+.ytp-pause-overlay {
+	display: none !important; 
+    opacity: 0 !important;
+} */
