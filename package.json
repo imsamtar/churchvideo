@@ -10,7 +10,7 @@
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --fix --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
 		"node": "nodemon build/app",
-		"start": "node build/app"
+		"start": "PORT=3001 node build/index"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^1.0.0-next.35",
