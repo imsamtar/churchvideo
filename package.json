@@ -10,7 +10,8 @@
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --fix --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
 		"node": "nodemon build/app",
-		"start": "PORT=3001 node build/index"
+		"start": "pm2 start mychurch.js",
+		"stop": "pm2 stop mychurch.js"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^1.0.0-next.35",
