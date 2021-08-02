@@ -9,7 +9,8 @@
 		"check:watch": "svelte-check --tsconfig ./tsconfig.json --watch",
 		"lint": "prettier --check --plugin-search-dir=. . && eslint --fix --ignore-path .gitignore .",
 		"format": "prettier --write --plugin-search-dir=. .",
-		"node": "nodemon build/app"
+		"node": "nodemon build/app",
+		"start": "node build/app"
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-node": "^1.0.0-next.35",
